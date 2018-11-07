@@ -1,0 +1,29 @@
+{
+  "name": "css_master_project1",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/develcrafter/css_master_project1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/develcrafter/css_master_project1/issues"
+  },
+  "homepage": "https://github.com/develcrafter/css_master_project1#readme",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "dependencies": {
+    "postcss-preset-env": "^6.4.0"
+  },
+  "postcss": {
+    "plugins":{
+      "postcss-preset-env": {
+        "stage" : 0
+      }
+    }
+  }
+}
