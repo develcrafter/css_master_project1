@@ -17,12 +17,15 @@
     "start": "parcel index.html"
   },
   "dependencies": {
-    "postcss-preset-env": "^6.4.0"
+    "header": "^0.1.1",
+    "postcss-preset-env": "^6.4.0",
+    "reset": "^0.1.0",
+    "reset.css": "^2.0.2"
   },
   "postcss": {
-    "plugins":{
+    "plugins": {
       "postcss-preset-env": {
-        "stage" : 0
+        "stage": 0
       }
     }
   }
